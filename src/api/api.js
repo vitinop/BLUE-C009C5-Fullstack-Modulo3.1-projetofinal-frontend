@@ -1,5 +1,5 @@
 const Api = {
-  apiUrl: "https://fullstack-projeto-backend.herokuapp.com/",
+  apiUrl: "https://fullstack-projeto-backend.herokuapp.com/tarefas",
   fetchGetAll: () => fetch(Api.apiUrl),
   fetchGetById: (id) => fetch(`${Api.apiUrl}/${id}`),
   fetchPost: (todo) => {
